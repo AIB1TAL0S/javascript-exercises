@@ -14,6 +14,12 @@ const thisYear = 1965
 const birthYear = 1947
 const age = thisYear - birthYear
 const greeting = `Hello! My name is ${firstName} ${lastName} and I am ${age} years old.`
+<<<<<<< Updated upstream
+=======
+
+const fullName = `${firstName} ${lastName}`
+const ageMessage = `age is ${age}`  
+>>>>>>> Stashed changes
 
 const fullName = `${firstName} ${lastName}`
 const ageMessage = `age is ${age}`  
@@ -27,7 +33,9 @@ console.log(ageMessage)
 
 
 
-
+console.log(greeting)
+console.log(fullName)
+console.log(ageMessage)
 // Do not change this
 module.exports = {
   firstName: typeof firstName === 'undefined' ? undefined : firstName,
